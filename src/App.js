@@ -9,4 +9,14 @@ function Greeting() {
   )
 }
 
-export default Greeting
+function GreetWithName(name) {
+  name = 'Marco'
+  return (
+    <h1>Hello, {name}</h1>
+  )
+}
+
+
+
+
+export default GreetWithName
